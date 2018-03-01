@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "training-sx-module": "packages/training-sx-module"
+  }
+}

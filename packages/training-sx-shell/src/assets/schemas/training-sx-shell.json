@@ -1,0 +1,238 @@
+{
+  "version": [
+    2,
+    0,
+    0
+  ],
+  "simpleTypes": [
+    {
+      "localName": "string",
+      "variety": "builtin"
+    }
+  ],
+  "attributes": [],
+  "contentModels": [
+    {
+      "type": "empty",
+      "maxOccurs": 1,
+      "minOccurs": 1
+    },
+    {
+      "items": [
+        {
+          "elementRef": 1,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        },
+        {
+          "elementRef": 2,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        },
+        {
+          "elementRef": 3,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        },
+        {
+          "elementRef": 4,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        }
+      ],
+      "type": "choice",
+      "maxOccurs": null,
+      "minOccurs": 0
+    },
+    {
+      "items": [
+        {
+          "elementRef": 6,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        }
+      ],
+      "type": "sequence",
+      "maxOccurs": null,
+      "minOccurs": 1
+    },
+    {
+      "items": [
+        {
+          "elementRef": 5,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        },
+        {
+          "elementRef": 7,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        }
+      ],
+      "type": "choice",
+      "maxOccurs": null,
+      "minOccurs": 0
+    },
+    {
+      "items": [
+        {
+          "elementRef": 10,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        }
+      ],
+      "type": "choice",
+      "maxOccurs": null,
+      "minOccurs": 1
+    },
+    {
+      "items": [
+        {
+          "elementRef": 0,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        },
+        {
+          "elementRef": 8,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        },
+        {
+          "elementRef": 9,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 0
+        },
+        {
+          "elementRef": 11,
+          "type": "localElement",
+          "maxOccurs": 1,
+          "minOccurs": 1
+        }
+      ],
+      "type": "sequence",
+      "maxOccurs": 1,
+      "minOccurs": 1
+    }
+  ],
+  "elements": [
+    {
+      "contentModelRef": 5,
+      "attributeRefs": [],
+      "localName": "recipe",
+      "namespaceURI": null,
+      "isMixed": false,
+      "isAbstract": false
+    }
+  ],
+  "localElements": [
+    {
+      "contentModelRef": 0,
+      "simpleTypeRef": 0,
+      "attributeRefs": [],
+      "localName": "title",
+      "namespaceURI": null,
+      "isMixed": true,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 1,
+      "attributeRefs": [],
+      "localName": "i",
+      "namespaceURI": null,
+      "isMixed": true,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 1,
+      "attributeRefs": [],
+      "localName": "b",
+      "namespaceURI": null,
+      "isMixed": true,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 1,
+      "attributeRefs": [],
+      "localName": "u",
+      "namespaceURI": null,
+      "isMixed": true,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 0,
+      "simpleTypeRef": 0,
+      "attributeRefs": [],
+      "localName": "ingredient",
+      "namespaceURI": null,
+      "isMixed": true,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 1,
+      "attributeRefs": [],
+      "localName": "p",
+      "namespaceURI": null,
+      "isMixed": true,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 3,
+      "attributeRefs": [],
+      "localName": "li",
+      "namespaceURI": null,
+      "isMixed": false,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 2,
+      "attributeRefs": [],
+      "localName": "ul",
+      "namespaceURI": null,
+      "isMixed": false,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 3,
+      "attributeRefs": [],
+      "localName": "description",
+      "namespaceURI": null,
+      "isMixed": false,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 3,
+      "attributeRefs": [],
+      "localName": "allergy-warning",
+      "namespaceURI": null,
+      "isMixed": false,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 3,
+      "attributeRefs": [],
+      "localName": "step",
+      "namespaceURI": null,
+      "isMixed": false,
+      "isAbstract": false
+    },
+    {
+      "contentModelRef": 4,
+      "attributeRefs": [],
+      "localName": "steps",
+      "namespaceURI": null,
+      "isMixed": false,
+      "isAbstract": false
+    }
+  ]
+}

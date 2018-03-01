@@ -1,0 +1,14 @@
+{
+	"toggle-ingredient": {
+		"label": "Ingredient",
+		"icon": "leaf",
+		"steps": [
+			{
+				"type": "operation/toggle-inline-frame-element",
+				"data": {
+					"nodeName": "ingredient"
+				}
+			}
+		]
+	}
+}
